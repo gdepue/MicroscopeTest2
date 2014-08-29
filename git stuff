@@ -1,0 +1,5 @@
+git add .                                                                     recurses through everything here and below
+git commit -m "first commit"                                                  master commit
+git remote add origin https://github.com/gdepue/discoverprodigy.git           adds a new remote repository named origin associated with URL
+git push -u origin master                                                     push master branch setting the 'upstream' remote repository as origin
+                                                                               next time only need to use git push to update remote repository with changes
